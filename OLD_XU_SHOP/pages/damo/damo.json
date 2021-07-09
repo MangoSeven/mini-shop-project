@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+   "head": "/pages/components/head/head",
+   "content": "/pages/components/content/content",
+    "bottom": "/pages/components/bottom/bottom"
+  }
+}

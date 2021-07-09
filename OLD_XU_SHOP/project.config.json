@@ -1,0 +1,118 @@
+/*
+ * @Author: your name
+ * @Date: 2021-06-23 13:40:15
+ * @LastEditTime: 2021-07-09 17:14:03
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \OLD_XU_SHOP\project.config.json
+ */
+{
+  "description": "项目配置文件。",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "enhance": false,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "nodeModules": false,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": false,
+    "useApiHook": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": []
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.4.3",
+  "appid": "你的appid",
+  "projectname": "mango",
+  "isGameTourist": false,
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "search": {
+      "current": -1,
+      "list": []
+    },
+    "conversation": {
+      "current": -1,
+      "list": []
+    },
+    "plugin": {
+      "current": -1,
+      "list": []
+    },
+    "game": {
+      "currentL": -1,
+      "list": []
+    },
+    "gamePlugin": {
+      "current": -1,
+      "list": []
+    },
+    "miniprogram": {
+      "current": 1,
+      "list": [
+        {
+          "id": -1,
+          "name": "图表",
+          "pathName": "pages/myechart/myechart",
+          "query": ""
+        },
+        {
+          "id": 1,
+          "name": "damo",
+          "pathName": "pages/damo/damo",
+          "query": "",
+          "scene": 1044,
+          "shareInfo": {
+            "groupName": "测试模拟群0",
+            "shareName": "wNDlDgnbkKdPV8laT8t3LTuDWRzQjtrBBymq0gMM2Es@cr4dev",
+            "shareKey": "sGTlZUVaHWDJnD5nI6tKuHnTDrE0iw1JeW6W2SWbUU8dcM8PVW2jbcxt0uMqFVOeqGGZzUDq5sx0Avm-7OtI0w~~"
+          }
+        },
+        {
+          "id": 2,
+          "name": "分类列表",
+          "pathName": "pages/classify/classify",
+          "query": "type_name=ee&id=60cc0ca0830bfa39f0589f28",
+          "scene": null
+        },
+        {
+          "id": 3,
+          "name": "详情页",
+          "pathName": "pages/detail/detail",
+          "query": "id=60d19bddc4ce08730c81bc6c",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "地址",
+          "pathName": "pages/address/address",
+          "query": "id=60d19bddc4ce08730c81bc6c",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

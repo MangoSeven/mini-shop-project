@@ -1,0 +1,33 @@
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{bannerImgs}}" wx:key="item">
+    <swiper-item>
+      <image src="{{item.url}}" class="slide-image"/>
+    </swiper-item>
+  </block>
+</swiper>
+
+
+<block >
+  <scroll-view class="classify" scroll-x="true" bindscroll="scroll" style="width: 100%">
+    <view class="typeBtn"  wx:for="{{typeList}}"  bindtap="classify" data-type="{{item}}" wx:key="_id">{{item.type_name}}</view>
+  </scroll-view>
+</block>
+
+<view class="produce"  wx:for="{{productRecommend}}"  wx:key="item" >
+ <block wx:if="{{item.list.length!==0}}">
+  <view class="title" bindtap="classify" data-type="{{item.type}}" >
+    <view>{{item.type.type_name}}推荐</view>
+    <view>更多>></view>
+  </view>
+ </block>
+
+  <view class="showPic">
+  <view class="picBox"  wx:for="{{item.list}}" wx:for-item="itemName" wx:key="itemName" >
+    <image src="{{itemName.imgUrl}}" data-id="{{itemName._id}}" bindtap="goDetail" ></image>
+    <view class="introduce">
+     {{itemName.title}}
+    </view>  
+  </view> 
+  </view>
+</view>

@@ -1,0 +1,26 @@
+/* pages/myechart/myechart.wxss */
+.container {
+  width: 100%;
+  height: 100vh;
+}
+.myEchart {
+  width:200px;
+  height: 100%;
+}
+.line {
+  width: 1px;
+  height: 300px;
+  border-right: 1px grey dashed;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+}
+.top{
+  width: 100px;
+  height: 100px;
+  display: block;
+  background: #ccff99;
+  position: fixed;
+  top: 30%;
+  left: 30%;
+}

@@ -1,0 +1,26 @@
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block  wx:for="{{productDetailInfo.headImgs}}" wx:key="id">
+    <swiper-item wx:for="{{productDetailInfo.headImgs}}" wx:key="id">
+      <image src="{{item.url}}" class="slide-image"/>
+    </swiper-item>
+  </block>
+</swiper>
+<view style="background:#fff;padding:0px 15px">
+  <view class="produceName">
+  产品名称：{{productDetailInfo.title}}
+  </view>
+  <view class="produceIntro">
+    <view class="produceIntroText">
+      产品详情：
+    </view>
+    <view class="produceDetail">
+      <view>{{productDetailInfo.des}}</view>
+    </view>
+  </view>
+  <view class="picShow">
+  <view class="pic">图片展示:</view>
+    <image src="{{item.url}}" wx:for="{{productDetailInfo.detailImgs}}" wx:key="id"></image>
+  </view>
+  <view class="line">----这是我的底线----</view>
+</view>

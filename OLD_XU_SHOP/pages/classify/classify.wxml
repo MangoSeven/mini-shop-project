@@ -1,0 +1,10 @@
+<view class="classifyBox">
+  <view class="title">{{type.type_name}}系列</view>
+  <view class="classify">
+  </view>
+    <view class="classify">
+     <view wx:for="{{productData}}" wx:key="_id" bindtap="detail" data-id="{{item._id}}">
+       <image src="{{item.imgUrl}}"></image> 
+    </view>
+  </view>
+</view>
