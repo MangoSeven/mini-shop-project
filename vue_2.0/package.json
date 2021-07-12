@@ -1,7 +1,7 @@
 {
   "name": "vue_2.0",
   "version": "0.1.0",
-  "private": true,
+  "description": "Vue VueRouter Element-ui webpack",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
