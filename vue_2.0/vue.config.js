@@ -1,7 +1,7 @@
 /*
  * @Author: xumingyue
  * @Date: 2021-05-23 17:42:30
- * @LastEditTime: 2021-05-23 18:30:03
+ * @LastEditTime: 2021-10-09 15:13:28
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \vue_2.0\vue.config.js
@@ -10,7 +10,7 @@
 module.exports = {
   //开发服务器配置
   devServer: {
-    port: 3030, //端口号，如果端口号被占用，会自动提升1
+    port: 3031, //端口号，如果端口号被占用，会自动提升1
     https: false, //协议
     open: true, //启动服务时自动开启浏览器访问
     proxy: {
